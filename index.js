@@ -233,16 +233,16 @@ function getArtistByIndex(array, index) {
 
 /* Task 4: Create a function called get20s() that takes data as an argument and returns an array withf names of artists who lived in the 20th century (1900-2000) */
 
-// function get20s(arr){
-// const newArr = [];
-// for(let i = 0; i < arr.length; i++){
-//   if(Math.floor(arr[i].years) === years){
-//     newArr.push(arr[i])
-//   }
-// }
-// return newArr
-// }
-// console.log(get20s(artists, 1900))
+function get20s(artist){
+  const newArr = [];
+  for(i = 0; i = artist.length; i++){
+    artists.years.split("-")
+    If(Math.floor(artist[i].years) === "1900" || "2000")
+    newArr.push(artist[i])
+  }
+  return newArr
+}
+console.log(get20s(artists, 1900))
 // split the years into 2 individual numbers and compare those 2 numbers to see if they fall between 1900-2000, .split("-")
 
 /* Task 5: Create a function called `removeArtist` that takes two arguments:
@@ -294,7 +294,7 @@ function lotsOfArt(arr,){
   const newArr = [];
   for(let i = 0; i < arr.length; i++){
     if(arr[i].paintings > 100){
-    newArr.push(arr[i])
+    newArr.push(arr[i].names)
     }
   }
   return newArr
