@@ -24,6 +24,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. How would you describe preprocessing to someone new to CSS?
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
 3. How would you explain the concept of a variable to someone new to programming?
 4. What is the purpose of using functions in code?
 5. What is JSON data?
